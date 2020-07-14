@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=four
+comment0.text=\r\n\ set\ the\ time\ survived\ in\ position\ 4.\r\n\ \r\n\ @author\ (Casey\ Merritt)\ \r\n\ @version\ (Final)\r\n
+comment1.params=
+comment1.target=void\ setNumbers()
+comment1.text=\r\n\ Method\ setNumbers\ initializes\ the\ both\ arrays\ to\ values\ found\ in\ the\ corresponding\ text\ files\r\n
+comment2.params=
+comment2.target=void\ getNumbers()
+comment2.text=\r\n\ Method\ getNumbers\ calls\ setNumbers\ and\ gets\ the\ specific\ numbers\ to\ print.\r\n
+comment3.params=
+comment3.target=void\ setTime()
+comment3.text=\r\n\ Method\ setTime\ sets\ the\ sprite\ to\ the\ specific\ time.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ one\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=LineEnemy
+comment0.text=\r\n\ Spawns\ a\ enemy\ that\ shoots\ in\ the\ circle\ \r\n\ \r\n\ @author\ (Casey\ Merritt,\ Austin\ Nguyen,\ Eddie\ Huang)\ \r\n\ @version\ (Final)\r\n
+comment1.params=
+comment1.target=LineEnemy()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Enemy\r\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ Method\ move\ makes\ the\ enemy\ ship\ move\ back\ and\ forth\ in\ the\ location\ it\ is\ spawned\r\n
+comment3.params=x
+comment3.target=void\ fire(int)
+comment3.text=\r\n\ @param\ x\ angle\ in\ which\ the\ laser\ is\ fired\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ ShootObject\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5

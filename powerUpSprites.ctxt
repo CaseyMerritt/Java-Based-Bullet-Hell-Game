@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=powerUpSprites
+comment0.text=\r\n\ Creates\ a\ class\ to\ hold\ all\ the\ powerups\r\n\ \r\n\ @author\ (Casey\ Merritt,\ Austin\ Nguyen,\ Eddie\ Huang)\ \r\n\ @version\ (Final)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ powerUpSprites\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

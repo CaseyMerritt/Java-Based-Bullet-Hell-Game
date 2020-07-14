@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GameOverText here.
+ * Displays the Game Over! text on the Game Over screen
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * per.2
+ * @version (Final)
  */
 public class GameOverText extends Actor
 {

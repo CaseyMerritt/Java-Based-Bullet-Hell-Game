@@ -18,16 +18,23 @@ public class ShooterWorld extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1600, 900, 1);
         Fighter fighter1 = new Fighter();
-        BadGuy bdgy1 = new BadGuy();
-        //ShootObject2 shoot2 = new ShootObject2();
-        ShootObject Shoot = new ShootObject();
+        Enemy enemy = new Enemy();
+        powerUps pu = new powerUps();
+        Border border = new Border();
+        Border border2 = new Border();
+        BorderSide side = new BorderSide();
+        BorderSide side2 = new BorderSide();
+
         timer tm = new timer();
         timerSpawnEnemies tse = new timerSpawnEnemies();
-        addObject(Shoot, 800, 120);
+        addObject(enemy, 800, 120);
         addObject(fighter1,800,750);
-        addObject(bdgy1,800, 120);
-        //addObject(shoot2,1400, 120);
         addObject(tm, 1500, 800);
         addObject(tse, 0, 0);
+        addObject(pu,0,0);
+        addObject(border,800,0);
+        addObject(border2,800,900);
+        addObject(side,0,450);
+        addObject(side2,1600,450);
     }
 }

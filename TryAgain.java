@@ -1,16 +1,22 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class TryAgain here.
+ * Displays the Game Over! text on the Game Over screen
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * per.2
+ * @version (Final)
  */
 public class TryAgain extends Actor
 {
     GifImage gifImage = new GifImage("Try Again.gif");
+    /**
+     * method click checks to see if the image is clicked and then loads 
+     * the play world if it is clicked.
+     */
     public void click(){
         if(Greenfoot.mouseClicked(this)){
+            Greenfoot.playSound("tryAgain.wav");
             Greenfoot.setWorld(new ShooterWorld());
         }
     }

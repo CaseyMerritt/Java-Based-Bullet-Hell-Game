@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FireRatePowerUp
+comment0.text=\r\n\ Creates\ a\ fireRate\ powerup\ class\ that\ moves\ down\ the\ screen\r\n\ \r\n\ @author\ (Casey\ Merritt)\ \r\n\ @version\ (Final)\r\n
+comment1.params=
+comment1.target=FireRatePowerUp()
+comment1.text=\r\n\ constructor\ to\ set\ the\ initial\ rotation\ of\ the\ sprite\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ FireRatePowerUp\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=specialRight
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ specialRight\ here.\r\n\ \r\n\ @author\ (Austin\ Nguyen)\ \r\n\ @version\ (Final)\r\n
+comment1.params=x
+comment1.target=void\ fire(int)
+comment1.text=\r\n\ method\ fire\ fires\ a\ laser\r\n\ \r\n\ @param\ x\ angle\ in\ which\ the\ laser\ is\ fired\r\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ method\ move,\ moves\ the\ ship\r\n
+comment3.params=
+comment3.target=void\ specialFire()
+comment3.text=\r\n\ method\ specialFire\ checks\ to\ see\ if\ the\ letter\ e\ is\ pressed\r\n\ then\ fires\ lasers\ based\ on\ wether\ it\ is\ pressed\ or\ not\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ -\ do\ whatever\ the\ specialLeft\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=5

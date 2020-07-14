@@ -1,8 +1,9 @@
 #BlueJ class context
 comment0.target=TryAgain
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ TryAgain\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ Displays\ the\ Game\ Over\!\ text\ on\ the\ Game\ Over\ screen\r\n\ \r\n\ @author\ (Casey\ Merritt)\ \r\n\ per.2\r\n\ @version\ (Final)\r\n
 comment1.params=
 comment1.target=void\ click()
+comment1.text=\r\n\ method\ click\ checks\ to\ see\ if\ the\ image\ is\ clicked\ and\ then\ loads\ \r\n\ the\ play\ world\ if\ it\ is\ clicked.\r\n
 comment2.params=
 comment2.target=void\ act()
 comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ TryAgain\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n

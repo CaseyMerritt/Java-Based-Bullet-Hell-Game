@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Score here.
+ * Displays the Score text on the Game Over screen
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * per.2
+ * @version (Final)
  */
 public class Score extends Actor
 {

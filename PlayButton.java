@@ -1,14 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class PlayButton here.
+ * Displays the Play text on the Start screen
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * per.2
+ * @version (Final)
  */
 public class PlayButton extends Actor
 {
     GifImage gifImage = new GifImage("PlayButton.gif");
+    /**
+     * Method click checks the see if the play button is pressed and
+     * spawns the play world if it is clicked
+     */
     public void click(){
         if(Greenfoot.mouseClicked(this)){
             Greenfoot.setWorld(new ShooterWorld());

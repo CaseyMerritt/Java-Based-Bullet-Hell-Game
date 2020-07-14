@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=playerLaser
+comment0.text=\r\n\ Sets\ parameters\ for\ the\ player\ spawned\ lasers\ as\ well\ as\ create\ collision\ detection\ for\ it.\r\n\ \r\n\ @author\ (Casey\ Merritt,\ Austin\ Nguyen)\ \r\n\ @version\ (Final)\r\n
+comment1.params=direction
+comment1.target=playerLaser(int)
+comment1.text=\r\n\ Constructor\ to\ set\ the\ direction\ of\ the\ laser\r\n\ @Param\ direction\ the\ direction\ of\ the\ laser\ in\ degrees\r\n
+comment2.params=
+comment2.target=void\ collisionDetection()
+comment2.text=\r\n\ Method\ collisionDetection\ detects\ when\ certain\ objects\ collide\ with\ this\ sprite\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Laser2\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=4

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=leftEnemy
+comment0.text=\r\n\ creates\ a\ enemy\ that\ spawns\ on\ the\ Left\ side\ of\ the\ screen\ and\ shoots\ Right.\r\n\ \r\n\ @author\ (Casey\ Merritt,\ Austin\ Nguyen,\ Eddie\ Huang)\ \r\n\ @version\ (Final)\r\n
+comment1.params=x
+comment1.target=void\ fire(int)
+comment1.text=\r\n\ @param\ x\ angle\ in\ which\ the\ laser\ is\ fired\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ ShootObject2\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

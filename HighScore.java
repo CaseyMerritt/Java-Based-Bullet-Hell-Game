@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class HighScore here.
+ * Displays the HighScore text on the Game Over screen
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * @version (Final)
  */
 public class HighScore extends Actor
 {

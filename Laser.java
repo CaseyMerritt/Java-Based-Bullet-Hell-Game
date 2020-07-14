@@ -1,18 +1,24 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Laser here.
+ * Creates a laser class that is utilized by enemy ships
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * @version (Final)
  */
 public class Laser extends Actor
 {
-    public int timer = 100;
-  
+    public int timer = 180;
+    /**
+     * constructor that sets the initial angle of the laser
+     */
     public Laser(){
         turn(90);
     }
+    /**
+     * creates a timer that destroys this sprite after a set time.
+     * (Obsolete after borders were added)
+     */
     public void removeLaser(){
         if(timer > 0){
            timer--;

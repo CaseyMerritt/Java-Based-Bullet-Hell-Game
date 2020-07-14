@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GameName here.
+ * Displays the Star Fighter text on the Start screen
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * per.2
+ * @version (Final)
  */
 public class GameName extends Actor
 {

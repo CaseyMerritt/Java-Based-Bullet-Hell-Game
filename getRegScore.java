@@ -1,20 +1,27 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
+
 /**
- * Write a description of class getRegScore here.
+ * Displays the current Time
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * @version (Final)
  */
 public class getRegScore extends Actor
 {
     public int highM;
     public int highS;
     timer tm = new timer();
+    /**
+     * constructor to initialize highM and highS
+     */
     public getRegScore(){
         highM = tm.getMinutes();
         highS = tm.getSeconds();
     }
+    /**
+     * method setScores sets the image to the current player time
+     */
     public void setScores(){
         setImage(new GreenfootImage(highM + ": " + highS, 24, Color.BLACK, Color.WHITE));
     }

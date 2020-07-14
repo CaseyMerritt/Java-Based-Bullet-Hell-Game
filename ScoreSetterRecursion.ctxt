@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ScoreSetterRecursion
+comment0.text=\r\n\ Class\ the\ sort\ and\ save\ the\ top\ 5\ scores\ to\ a\ text\ file\r\n\ \r\n\ @author\ (Casey\ Merritt,\ Austin\ Nguyen,\ Eddie\ Huang)\ \r\n\ @version\ (Final)\r\n
+comment1.params=
+comment1.target=ScoreSetterRecursion()
+comment1.text=\r\n\ constructor\ to\ set\ the\ image\ transparency\ to\ 0\ and\ to\ initialize\r\n\ both\ highM\ and\ highS\r\n
+comment2.params=
+comment2.target=void\ initializeScores()
+comment2.text=\r\n\ Method\ initializeScores\ reads\ in\ the\ highest\ recorded\ minutes\ and\ seconds\r\n\ and\ places\ them\ based\ on\ their\ location\ in\ the\ text\ file\r\n\ into\ corresponding\ arrays.\r\n\ \r\n\ the\ seconds\ are\ also\ increased\ based\ on\ their\ corresponding\ minutes\ *\ 100\ for\r\n\ easier\ sorting\r\n
+comment3.params=n
+comment3.target=void\ addScore(int)
+comment3.text=\r\n\ method\ addScore\ checks\ to\ see\ if\ the\ current\ player\ score\ is\ high\ enough\r\n\ to\ be\ added\ to\ the\ top\ 5\ list\r\n\ \r\n\ if\ current\ player\ score\ is\ high\ enough,\ it\ is\ then\ added\ to\ the\ array\ and\ sorted\r\n\ accordingly\r\n\ \r\n\ @param\ n\ number\ of\ times\ left\ to\ run\ through\ the\ loops\r\n
+comment4.params=
+comment4.target=void\ printArray()
+comment4.text=\r\n\ Method\ printArray\ calls\ all\ the\ methods\ together\ so\ that\ the\ times\ are\ displayed\r\n\ correctly\r\n
+comment5.params=
+comment5.target=void\ writeScores()
+comment5.text=\r\n\ method\ writeScores\ takes\ the\ sorted\ arrays\ and\ then\ outputs\ them\ into\ a\ text\ file\r\n\ to\ be\ read\ later\ and\ displayed\ on\ screen.\r\n\ \r\n\ keep\ in\ mind\ the\ seconds\ and\ altered\ at\ this\ point\ by\ subtracting\ their\ corresponding\r\n\ minutes\ *\ 100\ to\ leave\ a\ seconds\ value\ between\ 0\ -\ 59.\r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ Act\ -\ do\ whatever\ the\ ScoreSetterRecursion\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=7

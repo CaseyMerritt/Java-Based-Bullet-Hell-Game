@@ -5,10 +5,10 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class timer here.
+ * updates timer on screen.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Casey Merritt) 
+ * @version (Final)
  */
 public class timer extends Actor
 {
@@ -18,29 +18,50 @@ public class timer extends Actor
     public static int currentSecond;
     public static int highMinutes;
     public static int highSeconds;
-    
+    /**
+     * Method updateTimerDisplay updates the current time the player has survived 
+     * in real time on the screen
+     */
     public void updateTimerDisplay(){
         int seconds = timeCounter / 60;
         setImage(new GreenfootImage("Time: "+timeElapsed + ": " + seconds, 24, Color.BLACK, Color.WHITE));
     }
+    /**
+     * @Return current minute
+     */
     public int getMinutes(){
         return currentMinute;
     }
+    /**
+     * @Return current seconds
+     */
     public int getSeconds(){
         return currentSecond;
     }
+    /**
+     * @Return highest minute
+     */
     public int getHighMinutes(){
         return highMinutes;
     }
+    /**
+     * @Return highest seconds
+     */
     public int getHighSeconds(){
         return highSeconds;
     }
+    /**
+     * Method checkHighScore checks to see if the current player time is higher than the highest minutes
+     */
     public void checkHighScore(){
         if(timeElapsed >= highMinutes){
             highMinutes = timeElapsed;
             highSeconds = timeCounter / 60;
         }
     }
+    /**
+     * Method checkRegScore sets the current times to be transfered to other methods and classes.
+     */
     public void checkRegScore(){
         currentSecond = timeCounter / 60;
         currentMinute = timeElapsed;

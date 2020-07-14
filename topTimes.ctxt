@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=topTimes
+comment0.text=\r\n\ Displays\ the\ Top\ Times\ text\ on\ the\ Game\ Over\ screen\r\n\ \r\n\ @author\ (Casey\ Merritt)\ \r\n\ per.2\r\n\ @version\ (Final)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ HighScore\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2
